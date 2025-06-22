@@ -47,10 +47,9 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         Text(text = stringResource(id = R.string.app_name), fontWeight = FontWeight.Bold, fontSize = 28.sp)
         Spacer(modifier = Modifier.height(14.dp))
         Text(
-            text = "\uD83D\uDC68\u200D\uD83D\uDCBB Hola, soy Anibal Copitan\n" +
-                    "Soy desarrollador fullstack y amante del software libre.\n" +
-                    "Estas son algunas herramientas que he creado:" +
-                    "\n",
+            text = "\uD83D\uDC68\u200D\uD83D\uDCBB Hola, soy Anibal Copitan\n\n" +
+                    "Soy desarrollador fullstack y amante del software libre.\n\n" +
+                    "Estas son algunas herramientas que he creado:\n",
             fontSize = 16.sp,
             color = MaterialTheme.colorScheme.primary
         )
